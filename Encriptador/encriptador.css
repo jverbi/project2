@@ -1,0 +1,132 @@
+body {
+    background-color: #0a0a23;
+    
+}
+header {
+    background-color: black;
+    color: whitesmoke;
+    height: 150px;
+    border-bottom: 5px solid gold;
+}
+.imgLogo {
+    width: 200px;
+    position: relative;
+    left: 150px;
+
+}
+header img {
+    width: 180px;
+    height: 180px;
+    border-bottom: 4px solid gold;
+    
+}
+header h1 {
+    font-size: 40px;
+    position: absolute;
+    left: 700px;
+    top: 60px;
+}
+main {
+    
+    width: 940px;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    color: whitesmoke;
+    text-align: center;
+}
+.principal {
+    border-radius: 15px;
+    border: 2px solid gold;
+    width: 940px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.seccion_entrada, .seccion_salida {
+    
+    height: 280px;
+    display: inline-block;
+
+}
+.seccion_entrada {
+    
+    padding: 20px;
+    margin-right: 10px;
+}
+.seccion_salida{
+    
+    border-left: 2px solid gold;
+    padding: 30px 20px 30px 40px;
+    margin-left: 20px;
+}
+label {
+    display: block;
+    margin: 10px 0 30px 0;
+}
+label p {
+    font-size: 30px;
+}
+textarea {
+    background-color: black;
+    width: 350px;
+    height: 200px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+}
+.boton_encriptar {
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.boton_desencriptar {
+    display: inline-block;
+    position: absolute;
+    left: 650px;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.boton_reiniciar {
+    display: inline-block;
+    position: absolute;
+    right: 380px;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+#encriptar {
+    padding: 10px 45px 10px 45px;
+}
+
+#desencriptar {
+    padding: 10px 30px 10px 30px;
+}
+#reiniciar {
+    padding: 10px 45px 10px 45px;
+
+}
+#encriptar:hover, #desencriptar:hover, #reiniciar:hover {
+    padding: 15px 60px 15px 60px;
+    border: 2px solid gold;
+    font-size: 15px;
+    color: white;
+    background-color: #0a0a23;
+    transition: 1s;
+}
+#encriptar:active, #desencriptar:active, #reiniciar:active {
+    background-color: white;
+    color: black;
+    transition: 1s;
+    border: none;
+}
+footer {
+    height: 100px;
+    background-color: black;
+    position: relative;
+    top: 600px;
+    
+}
